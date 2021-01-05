@@ -107,14 +107,28 @@ a {
 
 /* bildergalerie */
 
-.bilder {
-	color: #FF9A1A;
-	position: static;
+.flex-box
+{
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 140%;
+	width: 100%;
 	height: auto;
 }
+.flex
+{ 
+	flex: 1;
+}
+.hover:hover {
+	flex: 4;
+	position: sticky;
+}
+
+.bilder 
+{
+	width: 230px;
+	height: 230px;
+	margin: 20px;
+}
+
+
 
 	
