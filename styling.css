@@ -1,7 +1,6 @@
 body {
 	
 	font-family: "apercu",sans-serif;
-	text-align: center;
 	margin: 5%;  
 	margin-top: 1%;
 	background: #F5DEB3;	
@@ -26,7 +25,6 @@ h3{
 }
 div, p {
 	text-align: left;
-	content: 100px;
 }
 
 header {
@@ -113,22 +111,64 @@ a {
 	width: 100%;
 	height: auto;
 }
-.flex
-{ 
-	flex: 1;
-}
-.hover:hover {
-	flex: 4;
-	position: sticky;
+
+.bilder:hover {
+	color: #875100;
+	background-color: #875100; 
+    color: #000000; 
+    border: 10px solid #4F2F00;
 }
 
 .bilder 
 {
-	width: 230px;
-	height: 230px;
 	margin: 20px;
+	box-sizing: content-box;
+	width: 80%;
+	height: auto;
 }
 
+/** navigationsleiste **/
 
-
+#navi li {
+	display: inline;
+	list-style-type: none;
+	background-color: #FF9900;
+	box-sizing: content-box;
+	width: 100%;
+	height: auto;
 	
+	
+}
+
+#navi a {
+	color: black;
+	text-decoration: none;
+	
+	
+}
+
+#navi a:hover
+{
+	background-color: #A66300;
+	padding: 1% 1%;
+}
+	
+#navi a:hover, #startseite #navi1 a, #diskographie #navi2 a, #bildergalerie #navi3 a {
+	background-color: #875100;
+	padding: 1% 1%;
+
+}
+.nav li{
+	display: inline;
+	list-style-type: none;
+
+
+}
+.nav a {
+	color: black;
+}
+.nav {
+	padding: 10px;
+	background-color: #FF9900;
+	
+}
